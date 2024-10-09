@@ -152,7 +152,7 @@ def user_input(user_question):
 # Streamlit app configuration
 st.set_page_config(
     page_title="IntelliHealth-Analyser",
-    page_icon=r"C:\Users\AKSHAT SOMANI\OneDrive\Desktop\icon.jpg",
+    page_icon=r"images\icon.jpg",
     layout="centered",  # Same as bot code
     initial_sidebar_state="auto",
 )
@@ -163,7 +163,7 @@ if "chat_session" not in st.session_state or st.query_params:
 
 # Sidebar for uploading files
 with st.sidebar:
-    logo_path=r"C:\Projects\Intellihealth\images\logo.png"
+    logo_path=r"images\logo.png"
 
     st.sidebar.image(logo_path, use_column_width=True)
     st.title("Upload Medical Reports")
